@@ -14,7 +14,7 @@ To prepare the VDJdb dataset for our classification task. The initial step was t
 
 # Video
 
-(link)[]
+[Link](https://youtu.be/IlvrhFTw2yw)
 
 ## Study Limitations
 
