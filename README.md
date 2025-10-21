@@ -1,4 +1,4 @@
-# bds2025_capstone_project
+# TCRBinder: Pathogen-recognition prediction in the Human Immune System
 
 ## Introduction
 The human adaptive immune system's ability to recognize and eliminate pathogens and malignant cells is a cornerstone of health. This function is primarily mediated by T-cells, which utilize a highly specific receptor (TCR). T-cells inspect small protein fragments ( epitopes) that are "presented" to them on the surface of other cells. The incredible diversity of the TCR repertoire allows the immune system to respond to a vast number of potential threats. However, this same diversity presents a challenge: predicting which T-cell will recognize which epitope.
