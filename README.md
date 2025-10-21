@@ -27,7 +27,6 @@ The choice of a simple CNN, while effective, does not capture long-range depende
 The most significant limitation is that our model is HLA-agnostic. In reality, TCR binding is HLA-restricted, meaning a TCR recognizes an epitope only when presented by a specific HLA molecule. By ignoring the HLA context, our model learns a generalized representation of binding that may not hold true for all genetic backgrounds. Incorporating HLA information is a critical next step for developing a clinically relevant tool.
 
 ## Discussion
-Here is how I would structure your "Discussion" and "Conclusion" section to tie all this together.
 
 This project successfully demonstrated the development and validation of a CNN for the generalizable, pair-wise prediction of TCR-epitope binding. One of the model's strengths is the flexible binary classification that is not constrained to a fixed set of known antigens.
 
