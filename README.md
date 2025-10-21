@@ -29,11 +29,11 @@ The most significant limitation is that our model is HLA-agnostic. In reality, T
 ## Discussion
 Here is how I would structure your "Discussion" and "Conclusion" section to tie all this together.
 
-"This project successfully demonstrated the development and validation of a Convolutional Neural Network for the generalizable, pair-wise prediction of TCR-epitope binding. On of the model's strengths is the flexible binary classification that is not constrained to a fixed set of known antigens.
+This project successfully demonstrated the development and validation of a CNN for the generalizable, pair-wise prediction of TCR-epitope binding. One of the model's strengths is the flexible binary classification that is not constrained to a fixed set of known antigens.
 
 The model achieved a strong predictive performance on a held-out test set, with an Area Under the ROC Curve (AUROC) of 0.97. This indicates a high degree of separability between the positive (VDJdb-derived) and synthetic negative (shuffled) data pairs.
 
-However, the model's true utility was demonstrated not in its accuracy, but in its interpretability. By employing in silico mutagenesis, we were able to probe the trained model to identify residue-level "hotspots" critical for binding. However, the limitations of this proof-of-concept are significant and define clear paths for future work. 
+The model's true utility was demonstrated in its interpretability. By employing in silico mutagenesis, we were able to probe the trained model to identify residue-level "hotspots" critical for binding. However, the limitations of this proof-of-concept are significant and define clear paths for future work. 
 
 In conclusion, this project serves as a robust framework for in silico TCR specificity prediction. The combination of a CNN architecture with the mutation exercise that provides a powerful tool for discovering the sequence-level rules of immune recognition. Future iterations incorporating multi-chain and MHC-specific data, built upon this foundation, hold the potential to accelerate personalized immunotherapy and vaccine development.
 
